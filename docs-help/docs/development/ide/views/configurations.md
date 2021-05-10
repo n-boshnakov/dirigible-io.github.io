@@ -18,7 +18,7 @@ In addition to Name, each of the other four columns in the table holds a distinc
 The values of the configuration parameters are set by the module, but they can be overwritten. This can be done either during the deployment of Dirigible, by creating a dirigible.properties file with different values or by changing the values during runtime.
 
 ####Changing a variable during runtime
-1. Follow steps 1-5 outlined in the `Hello World Application` tutorial at [Getting Started](../../../){:target="_blank"}.
+1. Follow steps 1-5 outlined in the [`Create a hello-world.js service`](../../../#create-a-hello-worldjs-service){:target="_blank"} tutorial.
 2. Insert the following code at line 2:
 ``` javascript hl_lines="2 3 4"
 var response = require("http/v4/response");
