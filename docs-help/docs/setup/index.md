@@ -59,7 +59,7 @@ The Tomcat specific WAR files can be deployed on a [Apache Tomcat](http://tomcat
 
     === "PostgreSQL"
 
-        1. Install `postgresql` on Linux (Debian-based) with:
+        1. Install postgresql on Linux (Debian-based) with:
 
             ```
             sudo apt-get update
@@ -67,7 +67,7 @@ The Tomcat specific WAR files can be deployed on a [Apache Tomcat](http://tomcat
             sudo apt-get install postgresql postgresql-contrib
             ```
 
-        1. Create the `default` database for Eclipse Dirigible:
+        1. Create a default database for Eclipse Dirigible:
 
             ```
             sudo -i -u postgres
@@ -75,7 +75,7 @@ The Tomcat specific WAR files can be deployed on a [Apache Tomcat](http://tomcat
             createdb dirigible_database
             ```
 
-        1. Create `System User` for the Eclipse Dirigible database:
+        1. Create a system user for the Eclipse Dirigible database:
 
             ```
             psql dirigible_database
@@ -87,7 +87,7 @@ The Tomcat specific WAR files can be deployed on a [Apache Tomcat](http://tomcat
 
         1. Datasource configuration:
 
-            - Download the `postgresql` JDBC driver version 4.1 from [here](http://jdbc.postgresql.org/download.html).
+            - Download the postgresql JDBC driver version 4.1 from [here](http://jdbc.postgresql.org/download.html).
             - Copy the `postgresql-*.jar` file to the `<TOMCAT_HOME>/lib` directory.
 
         1. Set the environment variables:
